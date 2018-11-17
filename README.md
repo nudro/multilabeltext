@@ -17,5 +17,7 @@ I chose to build a multilabel text classifier for hte top 10 labels due to memor
 
 Once you have the outputs from the processing script, you can load them into the notebook. The current notebook loads up a saved .h5 Keras LSTM model. Due to the size of the saved model, I didn't commit it to Git. As a result, just run the notebook and the model yourself. Next, the notebook indicates `data_for_w2v` which is a 2D array of tokenized sentences. Again, if you run `processing.py` it will output the data needed to custom train word2vec.  You can then run the notebook to run and save your word2vec model. 
 
+Below is an overall workflow for how the original data, processing script, and model work together: 
+
 ![](flow.png)
 
