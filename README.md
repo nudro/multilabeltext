@@ -3,6 +3,8 @@ Tutorial from UVA DataPalooza 2018 Machine Learning Skills Session
 
 <h2>From Keras to Plotly: Building Deep Learning Models and Visualizing Predictions at UVA DataPalooza, November 9, 2018 Machine Learning Skills Session</h2>
 
+![](hah.png)
+
 In this tutorial you’ll be learning how to build a multi-label text classification model using data from Stack Overflow.  A multi-label problem differs from a multi-class problem, in that any sample can be assigned to multiple classes, as opposed to a standard binary classification problem where one sample is assigned to only specific class. In this tutorial you’ll learn what about the Word2Vec Skip Gram implementation and how to develop a word embedding layer for a Long Short-Term Memory (LSTM) recurrent neural network. The predictions we make will be used to visualize in Plotly.
 
 We’ll embark on our Keras journey together using a Jupyter Notebook file loaded in the new Google Colaboratory environment that allows for 12 hours of free GPU run-time on a Tesla K80.  Since we don’t have a lot of time together, I’ve pre-run several of the models we’ll use ahead of time, so you can just load them up and run them during the tutorial.  I’ve also written a processing script that, for future use, you can modify for your customization.
